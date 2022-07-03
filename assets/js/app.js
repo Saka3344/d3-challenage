@@ -360,4 +360,6 @@ d3.csv('./assets/data/data.csv').then(function(maData) {
                 }
             }
         });
-});
+}).catch(function(error) {
+    console.log(error);
+  });
